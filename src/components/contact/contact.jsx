@@ -21,7 +21,7 @@ function Contact() {
         </p>
         <div className='icons'>
           <a
-            className='border-4 border-white rounded-full'
+            className=''
             data-aos='fade-left'
             data-aos-delay='600'
             href='https://wa.me/917569932842'
