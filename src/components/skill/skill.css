@@ -1,31 +1,22 @@
-
-.skills {  
-    display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    gap: 2rem;
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
 }
 
 .skill {
-    background-image: linear-gradient(0deg,#4FFFB0,#0c5534);
-    padding: 2rem;
-    border-radius: 1rem;
-    /* text-align: center; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-
+  background-image: linear-gradient(0deg, #4fffb0, #0c5534);
+  padding: 2rem;
+  border-radius: 1rem;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 .skill-list {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-}
-
-@media only screen and (max-width: 37em) {
-	.skills {
-		grid-template-columns: repeat(auto-fit,minmax(245px,1fr));
-
-	}
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }

@@ -1,92 +1,48 @@
-/* 
 .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-	text-align: center;
-	gap: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5rem;
 }
 
-.contact p{
-    font-family: Mark Pro;
-    font-size: 1.7rem;
-	width: 60%;
-
+.contact p {
+  font-family: Mark Pro;
+  font-size: 1.7rem;
+  width: 60%;
 }
 
 .icons {
-	display: flex;
-	gap: 1rem;
+  display: flex;
+  gap: 1.5rem;
 }
 
-.icons a {
-	text-decoration: none;
-	font-size: 18px;
-	border-radius: 50%;
-	text-align: center;
-	border: 2px solid #4FFFB0;
-	color: #4FFFB0;
-	height: 50px;
-	width: 50px;
-	line-height: 45px;
-	transition: font-size 0.1s;
+.icons svg {
+  color: #26d47d;
 }
 
-
-
-.contact a:hover {
-	background-color:#4FFFB0;
-	color: black;
-	font-size: 23px;
-
+.icons svg:hover {
+  color: #4fffb0;
 }
 
 @media only screen and (max-width: 48em) {
-	.contact p {
-		font-size: 1.5rem;
-		width: 95%;
-	}
-	
-	.icons a {
-		font-size: 14px;
-		height: 45px;
-		width: 45px;
-		line-height: 40px;
-		
-	}
+  .contact p {
+    font-size: 1.5rem;
+    width: 95%;
+  }
 }
 
 @media only screen and (max-width: 37em) {
-
-	.contact p {
-		font-size: 1rem;
-		width: 100%;
-	}
-	
-	.icons a {
-		font-size: 1rem;
-		height: 40px;
-		width: 40px;
-		line-height: 37px;
-		
-	}
-} 
-
-@media only screen and (max-width: 27em) {
-	.icons {
-		display: inline;
-		text-align: center;
-		width: 100%;
-	}
-
-	.icons a {
-		padding: .6rem .8rem;
-		margin: .5rem;
-		border: none;
-		border-radius: 20%;
-		background-color:#4FFFB0;
-		color: black;
-		line-height: 2rem;
-	}
-} */
+  .contact p {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .icons {
+    gap: 1rem;
+  }
+  .icons svg {
+    width: 30px;
+    height: 30px;
+  }
+}

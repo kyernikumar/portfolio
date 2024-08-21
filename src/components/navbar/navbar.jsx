@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
     <div
-      className='navbar-section'
+      className='navbar-section container'
       style={{
         top: `${top}rem`,
         transition: "top 0.3s ease",
@@ -71,7 +71,7 @@ function Navbar() {
       </div>
       <div
         className='s-menu'
-        style={isOpen ? { height: "11.2rem", padding: "1rem" } : {}}
+        style={isOpen ? { height: "14rem", padding: "1rem" } : {}}
       >
         <a href='' className='menu-item'>
           Home

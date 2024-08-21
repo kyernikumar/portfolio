@@ -1,104 +1,87 @@
-
 .work-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-  gap: 5rem;
-
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
 .heading-text {
-    text-align: center;
+  text-align: center;
 }
 
 .work {
-	border-radius: 1rem;
-	position: relative;
-	overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .work img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 1rem;
-	display: block;
-	transition: transform 0.5s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  display: block;
+  transition: transform 0.5s;
 }
 
 .layer {
-	width: 100%;
-	height: 0;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	overflow: hidden;
-	background: linear-gradient(#181818e1,#4fffb0);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 30px;
-	transition: height 0.5s;
+  width: 100%;
+  height: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: linear-gradient(#181818e1, #4fffb0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  transition: height 0.5s;
 }
 
-.layer h2{
-	font-weight: 500;
+.layer h2 {
+  font-weight: 500;
 }
 
 .layer p {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 .layer a {
-	float: left;
-	text-decoration: none;
-	font-size: 28px;
-	border-radius: 50%;
-	text-align: center;
-	/* border: 2px solid #000000; */
-	background-color: #fcfbfb;
-	color: #000000;
-	height: 50px;
-	width: 50px;
-	line-height: 50px;
+  float: left;
+  text-decoration: none;
+  font-size: 28px;
+  border-radius: 50%;
+  text-align: center;
+  /* border: 2px solid #000000; */
+  background-color: #fcfbfb;
+  color: #000000;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
 }
 
 .layer a:hover {
-	background-color: rgba(0, 0, 0, 0.862);
-	color: #fcfbfb;
+  background-color: rgba(0, 0, 0, 0.862);
+  color: #fcfbfb;
 }
 
 .work:hover img {
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .work:hover .layer {
-	height: 100%;
+  height: 100%;
 }
 
 @media only screen and (max-width: 71em) {
-    .work-list {
-		grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-		grid-gap: 30px;
-        /* margin-bottom: 2rem; */
-	}
-    
-    .work {
-
-
-    }
-
-	.layer a {
-		font-size: 18px;
-		height: 30px;
-		width: 30px;
-		line-height: 30px;
-	}
-}
-
-@media only screen and (max-width: 37em) {
-	.work-list {
-		grid-template-columns: repeat(auto-fit,minmax(245px,1fr));
-
-	}
+  .layer a {
+    font-size: 18px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+  }
+  .work-list {
+    grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  }
 }

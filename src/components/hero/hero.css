@@ -1,15 +1,12 @@
 .hero {
-  margin: 0 auto;
-  padding: 10rem 4rem;
-  height: 100vh;
+  height: 90vh;
+  padding: 10rem 1rem;
 }
 
 .banner {
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1rem;
   z-index: 1;
 }
 
@@ -22,43 +19,49 @@
 }
 
 .main-heading {
-  font-size: 5rem;
+  font-size: 4.5rem;
+  font-weight: 1000;
+}
+
+.anime-col {
+  background-color: #4fffb0;
+  background-clip: text;
+  color: transparent;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  /* -webkit-text-fill-color: transparent; */
+}
+
+@keyframes example {
+  0% {
+    background-image: linear-gradient(90deg, #fff, #4fffb0 70%);
+  }
+  100% {
+    background-image: linear-gradient(90deg, #4fffb0 70%, #fff);
+  }
 }
 
 .banner .normal-text {
   font-weight: 400;
-  /* color: rgba(245, 245, 245, 0.836); */
+  color: rgba(245, 245, 245, 0.836);
 }
 
 .btn {
   font-weight: 600;
-  width: 175px;
+  font-size: 1rem;
+  width: 185px;
   height: 50px;
   border: none;
   border-radius: 10px;
-  background-color: #4fffb0ec;
+  background-image: linear-gradient(50deg, #26d47d, #0c5534);
   margin-top: 2rem;
 }
 
 .btn:hover {
   color: #4fffb0;
-  background-color: transparent;
   border: 2px solid #4fffb0;
 }
-/* .banner-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: end;
-    z-index: 0;
-}
-
-.hero-img {
-    min-width: 40rem;
-    width: 70%;
-    border-radius: 5rem;
-    background-clip: cover;
-} */
 
 @media only screen and (max-width: 67em) {
   .main-heading {
@@ -71,8 +74,9 @@
 
 @media only screen and (max-width: 50em) {
   .hero {
+    margin: 0 auto;
     font-size: 1rem;
-    padding: 8rem 0;
+    padding: 8rem 2rem;
   }
   .banner {
     gap: 0.6rem;
@@ -85,7 +89,7 @@
 
 @media only screen and (max-width: 37em) {
   .hero {
-    padding: 5rem 0;
+    padding: 5rem 1rem;
     text-align: center;
   }
   .banner {
