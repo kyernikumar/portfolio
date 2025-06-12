@@ -78,28 +78,3 @@ body {
     font-size: 2.2rem;
   }
 }
-
-@media only screen and (max-width: 37em) {
-  .container {
-    width: 90%;
-    font-size: 1.1rem;
-  }
-  .section-heading {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  #footer {
-    text-align: center;
-    font-size: 0.8rem;
-  }
-
-  .developer-name {
-    display: block;
-    color: #26d47d;
-  }
-}

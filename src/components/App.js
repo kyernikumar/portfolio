@@ -11,9 +11,11 @@ import Skills from "./skill/skill";
 import Contact from "./contact/contact";
 
 import portifolioImg from "./images/portifolio-img.png";
-import dashboardImg from "./images/dashboard.png";
-import ecommerceImg from "./images/ecommerce-img.avif";
-import moiveRating from "./images/movie-rating.png";
+import FoodBarcodesImg from "./images/FoodBarcodes.png";
+import ShoopingWithJSImg from "./images/ShoopingWithJS.png";
+import MoiveRatingImg from "./images/MovieRatingImg.png";
+import WeatherInfoImg from "./images/WeatherInfo.png";
+import FoodVillaImg from "./images/FoodVilla.png";
 
 import ecommerceUi from "./images/e-commerce-mobile-app.png";
 import deliveryUi from "./images/food-delivery-mobile-app.png";
@@ -24,31 +26,37 @@ const projects = [
     image: portifolioImg,
     name: "Portifolio",
     tool: "HTML | CSS | REACT",
+    link: "https://portfolio-sable-two-73.vercel.app/",
   },
   {
-    image: moiveRating,
+    image: MoiveRatingImg,
     name: "Movie Rating",
+    tool: "VTailwind | React",
+    link: "https://movie-rating-smoky.vercel.app/",
+  },
+  {
+    image: ShoopingWithJSImg,
+    name: "Shopping",
+    tool: "JavaScript",
+    link: "https://ecommerce-main-tau.vercel.app/",
+  },
+  {
+    image: FoodBarcodesImg,
+    name: "FoodInfo",
     tool: "React",
+    link: "https://food-barcodes.vercel.app/",
   },
   {
-    image: ecommerceImg,
-    name: "My Shopping",
+    image: FoodVillaImg,
+    name: "FoodVilla",
+    tool: "HTML | CSS | JavaScript",
+    link: "https://food-restaurant-main.vercel.app/",
+  },
+  {
+    image: WeatherInfoImg,
+    name: "WeatherInfo",
     tool: "Tailwind | React",
-  },
-  {
-    image: dashboardImg,
-    name: "Dashboard",
-    tool: "SQL | React",
-  },
-  {
-    image: ecommerceImg,
-    name: "My Shopping",
-    tool: "Tailwind | React",
-  },
-  {
-    image: moiveRating,
-    name: "Movie Rating",
-    tool: "React",
+    link: "https://wheatherinfo.vercel.app/",
   },
 ];
 
@@ -82,7 +90,7 @@ function Footer() {
   return (
     <footer id='footer'>
       <div>
-        © Copyright 2024, designed & developed by{" "}
+        © Copyright 2025, designed & developed by{" "}
         <span className='developer-name'> @Yerni Kumar</span>
       </div>
     </footer>

@@ -126,7 +126,7 @@ function Contact() {
           <a
             data-aos='fade-left'
             data-aos-delay='1200'
-            href='https://www.instagram.com/_yerni_kumar_'
+            href='https://www.instagram.com/mr_k.y.kumar'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -161,7 +161,7 @@ function Contact() {
           <a
             data-aos='fade-left'
             data-aos-delay='1400'
-            href='mailto:yernikumar1912@gmial.com'
+            href='https://github.com/kyernikumar'
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -179,7 +179,6 @@ function Contact() {
                 stroke-linejoin='round'
               />
             </svg>
-            {/* <FontAwesomeIcon icon={faGithub} /> */}
           </a>
         </div>
       </div>

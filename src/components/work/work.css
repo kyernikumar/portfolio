@@ -54,16 +54,16 @@
   border-radius: 50%;
   text-align: center;
   /* border: 2px solid #000000; */
-  background-color: #fcfbfb;
-  color: #000000;
+  /* background-color: #fcfbfb; */
+  color: #fcfbfb;
   height: 50px;
   width: 50px;
   line-height: 50px;
 }
 
 .layer a:hover {
-  background-color: rgba(0, 0, 0, 0.862);
-  color: #fcfbfb;
+  /* background-color: rgba(0, 0, 0, 0.862); */
+  color: #000000;
 }
 
 .work:hover img {

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import "./hero.css";
 
-const passion = ["UI UX Designer", "Web Developer"];
+const passion = ["UI UX Designer", "Programmer", "Web Developer"];
 
 const typedText = [
   `With expertise in JavaScript, React.js, Tailwind, 
@@ -31,7 +31,7 @@ function Hero() {
 
     const typed = new Typed(el2.current, {
       strings: typedText,
-      startDelay: 7000,
+      startDelay: 8000,
       typeSpeed: 5,
       backSpeed: 100,
       backDelay: 100,
