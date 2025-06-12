@@ -31,13 +31,13 @@ const projects = [
   {
     image: MoiveRatingImg,
     name: "Movie Rating",
-    tool: "VTailwind | React",
+    tool: "Tailwind | React",
     link: "https://movie-rating-smoky.vercel.app/",
   },
   {
     image: ShoopingWithJSImg,
     name: "Shopping",
-    tool: "JavaScript",
+    tool: "HTML | CSS | JavaScript",
     link: "https://ecommerce-main-tau.vercel.app/",
   },
   {
@@ -81,7 +81,7 @@ const uiUxProjects = [
 const skills = [
   ["UI UX Design", "Web Devlopment"],
   ["HTML", "CSS", "JavaScript", "React.js", "Node.js"],
-  ["Figma", "canva", "Adobe XD"],
+  ["Figma", "canva"],
 ];
 
 const titles = ["Expertise", "Tech Stack", "Design Tools"];
